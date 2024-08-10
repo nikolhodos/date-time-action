@@ -1,0 +1,9 @@
+name: "Print Date and Time"
+description: "A custom GitHub Action to print the current date and time."
+author: "Nikol Hodos"
+runs:
+  using: "docker"
+  image: "Dockerfile"
+branding:
+  icon: "clock"
+  color: "green"
